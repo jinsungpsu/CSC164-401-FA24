@@ -41,22 +41,22 @@ public class Demos0917 {
         }
 
 
-        System.out.println("Which frame score do you want to view: ");
+        System.out.println("\n\nWhich frame score do you want to view: ");
         int frameNum = keyboard.nextInt();
 
         // I want to see the XXXXXX frame scores...
         // whatever is stored in frameNum variable...
         // frameNum - 1
 
-        System.out.println("The " + (frameNum-1) + " frame scores are: ");
-        System.out.println("Throw #1" + bowlerScores[frameNum - 1][0]);
-        System.out.println("Throw #2" + bowlerScores[frameNum - 1][1]);
+        System.out.println("The " + (frameNum) + " frame scores are: ");
+        System.out.println("Throw #1 " + bowlerScores[frameNum - 1][0]);
+        System.out.println("Throw #2 " + bowlerScores[frameNum - 1][1]);
 
         // i want to see the 10th frame scores...
 
         System.out.println("The tenth frame scores are: ");
-        System.out.println("Throw #1" + bowlerScores[9][0]);
-        System.out.println("Throw #2" + bowlerScores[9][1]);
+        System.out.println("Throw #1 " + bowlerScores[9][0]);
+        System.out.println("Throw #2 " + bowlerScores[9][1]);
 
         // check if a scoring error has occurred
         if (isValidScore(bowlerScores)) {
